@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake Assessment Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="top-container">
+        <!--Brand of the Site and add cart-->
+        <a href="index.html"><img class="homepage" src="pic/jfone.png" alt="jfone"></a>
+        <img id="myImg" class="cart" src="pic/cart.png" alt="cart1">
+        <hr>
+    </div>
+    <!--carousel source from net-->
+    <div class="middle-container">
+        <!--modal-->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p> Items added: </p>
+            </div>
+        </div>
+        <div class="carousel" data-carousel>
+            <button class="carousel-button previous" data-carousel-button="prev">&#8656;</button>
+            <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+            <ul data-slides>
+                <li class="slide" data-active="">
+                    <img class="pic1" src="carousel/iphone.png" alt="iphone">
+                </li>
+                <li class="slide">
+                    <img class="pic2" src="carousel/samsung.png" alt="samsung">
+                </li>
+                <li class="slide">
+                    <img class="pic3" src="carousel/realme.png" alt="realme">
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="bottom-container">
+        <!--Products object/json, function to order/buy it from the shopping cart-->
+        <!--display product using flexbox, display coming from json-->
+        <section class="containerFlex">
+            <div class="card">
+                <div class="card-image phone-1" id="item1"></div>
+                <h2>iPhone 13 Pro</h2>
+                <p>P 76, 990</p>
+                <button class="button1" onclick="addToCart('item1')">Add to Cart</button>
+            </div>
+            <div class="card">
+                <div class="card-image phone-2" id="item2"></div>
+                <h2>iPhone SE</h2>
+                <p>P 27, 390</p>
+                <button class="button1" onclick="addToCart('item2')">Add to Cart</button>
+            </div>
+            <div class="card">
+                <div class="card-image phone-3" id="item3"></div>
+                <h2>iPhone 12</h2>
+                <p>P 40, 950</p>
+                <button class="button1" onclick="addToCart('item3')">Add to Cart</button>
+            </div>
+        </section>
+        <section class="containerFlex">
+            <div class="card">
+                <div class="card-image phone-4" id="item4"></div>
+                <h2>Galaxy Z Fold</h2>
+                <p>P 45, 990</p>
+                <button class="button1" onclick="addToCart('item4')">Add to Cart</button>
+            </div>
+            <div class="card">
+                <div class="card-image phone-5" id="item5"></div>
+                <h2>Galaxy S 22 Ultra</h2>
+                <p>P 80, 990</p>
+                <button class="button1" onclick="addToCart('item5')">Add to Cart</button>
+            </div>
+            <div class="card">
+                <div class="card-image phone-6" id="item6"></div>
+                <h2>Galaxy A</h2>
+                <p>P 25, 990</p>
+                <button class="button1" onclick="addToCart('item6')">Add to Cart</button>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>

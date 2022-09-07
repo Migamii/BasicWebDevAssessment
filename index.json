@@ -1,0 +1,44 @@
+{
+    "phone": [
+        {
+            "name": "iPhone 13 Pro",
+            "brand": "Apple",
+            "description": "Apple Device",
+            "price": "P 76, 990",
+            "image": "picFlex/iPhone13Pro.png"
+        },
+        {
+            "name": "iPhone Se",
+            "brand": "Apple",
+            "description": "Apple Device",
+            "price": "P 27, 390",
+            "image": "picFlex/iPhoneSE.png"
+        },
+        {
+            "name": "iPhone 12",
+            "brand": "Apple Device",
+            "description": "iphone 12",
+            "price": "P 40, 950",
+            "image": "picFlex/iPhone12.png"
+        },
+        {
+            "name": "samsung",
+            "brand": "Samsung",
+            "description": "Samsung phone",
+            "price": "280",
+            "image": "url"
+        },
+        {
+            "name": "samsung",
+            "brand": "Samsung",
+            "description": "Samsung phone",
+            "price": "280"
+        },
+        {
+            "name": "samsung",
+            "brand": "Samsung",
+            "description": "Samsung phone",
+            "price": "280"
+        }
+    ]
+}
